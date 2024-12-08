@@ -201,7 +201,7 @@ section pre {
         <main>
             <!-- section 1 -->
             <section>
-                <h1>{JSON} Placeholder</h1>
+                <h1>{Raza} Placeholder</h1>
                 <p>
                     Free fake and reliable API for testing and prototyping.
                     Powered by <a href="#">My Server</a> + <a href="#">LowDB</a>.
