@@ -1,11 +1,11 @@
 
-import { home } from "../data/home.js";
-import { Users } from "../data/users.js";
-import { Todos } from "../data/todos.js";
-import { Photos } from "../data/photos.js";
-import { Albums } from "../data/albums.js";
-import { Comments } from "../data/comments.js";
-import { Posts } from "../data/posts.js";
+import { home } from "../Alldata/home.js";
+import { Users } from "../Alldata/users.js";
+import { Todos } from "../Alldata/todos.js";
+import { Photos } from "../Alldata/photos.js";
+import { Albums } from "../Alldata/albums.js";
+import { Comments } from "../Alldata/comments.js";
+import { Posts } from "../Alldata/posts.js";
 
 export const routes = [
     {

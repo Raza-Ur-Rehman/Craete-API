@@ -1,6 +1,8 @@
 // import "./style.css"
-
-export const home =`
+// import hljs from "highlight.js";
+// import hljs from "highlight.js/lib/core";
+// import javascript from "highlight.js/lib/languages/javascript";
+export const home = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -163,6 +165,17 @@ section:nth-child(7) span a {
   color: var(--color-text);
   font-weight: 700;
 }
+section pre {
+    max-width: 500px;
+    width:100%;
+    height: 125px;
+    padding: 10px;
+    background-color: var(--color-text);
+    border: 1px solid black;
+    border-radius: 6px;
+    color: var(--color-light-gray);
+   
+  }
     </style>
 </head>
 <body>
@@ -202,10 +215,22 @@ section:nth-child(7) span a {
                     JSONPlaceholder is supported by the following companies and <a href="#">Sponsors </a> on GitHub,
                     check them out 💖
                 </p>
-                <img src="asset/img/image1.svg" alt="">
-                <img src="asset/img/image2.png" alt="">
+                <img src="../asset/img/image1.svg" alt="">
+                <img src="../asset/img/image2.png" alt="">
             </section>
-            <!-- section 3 -->
+            <!-- section 3a -->
+            <section>
+                <h2>Try it</h2>
+                <p>
+                    Run this code here, in a console or from any site:
+                </p>
+                <pre><code>
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
+      </code></pre>
+            </section>
+            <!-- section 3b -->
             <section>
                 <h2>When to use</h2>
                 <p>
