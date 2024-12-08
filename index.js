@@ -6,7 +6,7 @@ const app = express();
 dotenv.config();
 
 // app.get("/", (req, res) => {
-//   res.status(200).send(index);
+//   res.status(200).send();
 // });
 
 routes.map(({ path, component }) => {
